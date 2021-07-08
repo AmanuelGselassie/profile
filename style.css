@@ -1,26 +1,29 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 300;
 }
 h1 {
-  background: #F7F9Fc;
+  /*background: #F7F9Fc;*/
   color: darkgreen;
   font-size: 45px;
   font-weight: lighter;
-
+  margin-top: 0;
 }
 h2{
   color: darkgreen;
 font-weight: heavier;
 
 }
-#follow{
-  /*cursor: pointer;*/
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 4px;
 
 }
 #follow:hover
 {
-  background-color:darkred;
+  background-color:grey;
   align-items: center;
 }
 h3{
@@ -42,6 +45,16 @@ h3{
   margin: 0.5em;
   box-shadow: 1px 4px 7px 2px #464646;
 
+}
+
+.img-circle {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+    letter-spacing: 50px;
 }
 
 @media (max-width: 960px) {
