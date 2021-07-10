@@ -19,8 +19,10 @@ font-weight: heavier;
     color: white;
     padding: 20px 20px;
     border-radius: 4px;
-
-}
+    text-align: center;
+    margin: 20px 15px;
+    display: block;
+  }
 #follow:hover
 {
   background-color:grey;
@@ -34,6 +36,9 @@ h3{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  /*width: 700px;*/
+  margin:0 auto;
+  padding: 20px;
 }
 .card {
   background-color: ivory;
@@ -46,7 +51,9 @@ h3{
   box-shadow: 1px 4px 7px 2px #464646;
 
 }
-
+img{
+  width: 250px;
+}
 .img-circle {
     border-radius: 50%;
     object-fit: cover;
