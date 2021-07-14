@@ -49,14 +49,15 @@ h3{
   width: 40%;
   margin: 0.5em;
   box-shadow: 1px 4px 7px 2px #464646;
+}
+/*img{
+  width: 100%;
+}**/
 
-}
-img{
-  width: 250px;
-}
 .img-circle {
     border-radius: 50%;
     object-fit: cover;
+    width: 100%;
 }
 .list-inline i {
     font-size: 50px;
